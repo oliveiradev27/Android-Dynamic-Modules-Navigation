@@ -12,6 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitCenter"
-        android:contentDescription="@string/go_to_horse_word"
+        android:contentDescription="@string/go_to_gohorse_world"
         app:srcCompat="@drawable/ic_gohorse" />
 </LinearLayout>
