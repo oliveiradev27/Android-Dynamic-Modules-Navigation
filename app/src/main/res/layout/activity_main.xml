@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
+
+    <Button
+        android:id="@+id/button_go_to_feature_gohorse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_horse_word"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/button_go_to_feature_pizzas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzas" />
+
+</LinearLayout>

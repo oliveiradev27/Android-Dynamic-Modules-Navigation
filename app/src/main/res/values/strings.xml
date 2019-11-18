@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppBundleCodeLab</string>
+    <string name="title_payments">Payments</string>
+    <string name="go_to_horse_word">Go to Horse word</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="title_gohorse">Go Horse</string>
+</resources>

@@ -1,0 +1,5 @@
+rootProject.name='AppBundleCodeLab'
+include ':app'
+include ':payments'
+include ':navigation'
+include ':GoHorse'
