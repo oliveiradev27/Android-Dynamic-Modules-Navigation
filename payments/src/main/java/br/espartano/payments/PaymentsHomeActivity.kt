@@ -1,17 +1,16 @@
-package br.espartano.appbundlecodelab
+package br.espartano.payments
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import br.espartano.appbundlecodelab.features.GoHorseFeature
-import br.espartano.appbundlecodelab.features.GoPaymentsFeature
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class PaymentsHomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_payments_home)
 
         findViewById<Button>(R.id.button_go_to_feature_gohorse).setOnClickListener {
            val iterator = ServiceLoader.load(
@@ -23,18 +22,6 @@ class MainActivity : AppCompatActivity() {
                 iterator
                     .next()
                     .get(this)
-        }
-
-        findViewById<Button>(R.id.button_go_to_feature_pizzas).setOnClickListener {
-           val iterator = ServiceLoader.load(
-                GoPaymentsFeature::class.java,
-                GoPaymentsFeature::class.java.classLoader)
-               .iterator()
-
-            if (iterator.hasNext())
-                iterator
-                    .next()
-                    .go(this)
         }
     }
 }
