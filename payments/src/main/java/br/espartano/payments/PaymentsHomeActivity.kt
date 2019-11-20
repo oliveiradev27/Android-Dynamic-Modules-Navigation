@@ -3,7 +3,7 @@ package br.espartano.payments
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import br.espartano.appbundlecodelab.features.GoHorseFeature
+import br.espartano.navigation.features.GoHorseFeature
 import java.util.*
 
 class PaymentsHomeActivity : AppCompatActivity() {

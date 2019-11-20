@@ -2,7 +2,7 @@ package br.espartano.payments
 
 import android.content.Context
 import android.content.Intent
-import br.espartano.appbundlecodelab.features.GoPaymentsFeature
+import br.espartano.navigation.features.GoPaymentsFeature
 
 class GoPaymentsFeatureImp: GoPaymentsFeature {
 

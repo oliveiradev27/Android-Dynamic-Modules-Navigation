@@ -2,7 +2,7 @@ package br.espartano.gohorse.navigation
 
 import android.content.Context
 import android.content.Intent
-import br.espartano.appbundlecodelab.features.GoHorseFeature
+import br.espartano.navigation.features.GoHorseFeature
 import br.espartano.gohorse.GoHorseActivity
 import com.google.auto.service.AutoService
 

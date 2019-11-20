@@ -1,4 +1,4 @@
-package br.espartano.appbundlecodelab.features
+package br.espartano.navigation.features
 
 import android.content.Context
 

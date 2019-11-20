@@ -3,8 +3,8 @@ package br.espartano.appbundlecodelab
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import br.espartano.appbundlecodelab.features.GoHorseFeature
-import br.espartano.appbundlecodelab.features.GoPaymentsFeature
+import br.espartano.navigation.features.GoHorseFeature
+import br.espartano.navigation.features.GoPaymentsFeature
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
