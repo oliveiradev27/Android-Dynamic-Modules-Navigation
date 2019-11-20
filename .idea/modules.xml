@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppBundleCodeLab.iml" filepath="$PROJECT_DIR$/.idea/modules/AppBundleCodeLab.iml" group="AppBundleCodeLab" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GoHorse/GoHorse.iml" filepath="$PROJECT_DIR$/.idea/modules/GoHorse/GoHorse.iml" group="AppBundleCodeLab/GoHorse" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="AppBundleCodeLab/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GoHorse/gohorse.iml" filepath="$PROJECT_DIR$/.idea/modules/GoHorse/gohorse.iml" group="AppBundleCodeLab/gohorse" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" group="AppBundleCodeLab/navigation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments/payments.iml" filepath="$PROJECT_DIR$/.idea/modules/payments/payments.iml" group="AppBundleCodeLab/payments" />
     </modules>
